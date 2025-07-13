@@ -3,26 +3,33 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 90vh;
+    height: 90vh;
+    margin: 0 auto;
 }
 .container .grid-row {
     display:flex;
+    flex: 1;
+    width: 100%;
+    justify-content: center;
+
 }
 .container .square {
     border-color: red;
     border-width: 1px;
     border-style: solid;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-basis: auto;
     padding: 0;
     margin: 0;
-    flex-grow: 0;
-    flex-shrink: 0;
-    width: 5.75vh;
-    height: 5.75vh;
+    flex: 1;
+    /* width: 5.75vh;
+    height: 5.75vh;  */
 }
 
 .colored {
     background-color: black;
+}
+
+button {
+    display: block;
+    margin: auto;
 }
