@@ -9,7 +9,7 @@
 }
 .container .square {
     border-color: red;
-    border-width: 2px;
+    border-width: 1px;
     border-style: solid;
     display: flex;
     justify-content: center;
@@ -21,4 +21,8 @@
     flex-shrink: 0;
     width: 5.75vh;
     height: 5.75vh;
+}
+
+.colored {
+    background-color: black;
 }
